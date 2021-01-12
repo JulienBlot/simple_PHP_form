@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <title>Target PHP</title>
-    <!-- On peut avoir d'autres méta-données ici -->
+    <!-- We can have other metadata here -->
 </head>
 
 <body>
@@ -12,24 +12,24 @@
     <?php 
              $prenom = ""; 
         
-            function securite($donnees){
-                 $donnees =  strip_tags($donnees); //strip_tags — Supprime les balises HTML et PHP d'une chaîne 
-                 $donnees =  stripcslashes($donnees); //stripslashes -  Supprime tous les antislashs
-                 $donnees =  trim($donnees); //trim — Supprime les espaces (ou d'autres caractères) en début et fin de chaîne 
+            function security($donnees){
+                 $donnees =  strip_tags($donnees); //strip_tags — Remove HTML and PHP tags from a string
+                 $donnees =  stripcslashes($donnees); //stripslashes -  Remove all backslashes
+                 $donnees =  trim($donnees); //trim — Remove spaces (or other characters) at the start and end of the string
                 return $donnees;
             }
                  
                  
-        $prenom = securite($_POST['prenom']); 
+        $prenom = security($_POST['prenom']); 
         
-        echo 'Bonjour ' .$prenom. '<br/>';
+        echo 'Hello ' .$prenom. '<br/>';
         
         
         
         ?>
 
 
-    <p> Clique <a href="index.php"> ici</a> pour pouvoir retaper ton prénom</p>
+    <p> Click <a href="index.php"> ici</a> to be able to type your first name again</p>
 </body>
 
 </html>
