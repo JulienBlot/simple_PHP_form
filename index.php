@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Formulaire en PHP</title>
+    <title>Form in PHP</title>
     <!-- We could insert more metadata here-->
 </head>
 
