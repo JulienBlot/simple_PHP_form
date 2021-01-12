@@ -29,7 +29,7 @@
         ?>
 
 
-    <p> Click <a href="index.php"> ici</a> to be able to type your first name again</p>
+    <p> Click <a href="index.php"> here</a> to be able to type your first name again</p>
 </body>
 
 </html>
