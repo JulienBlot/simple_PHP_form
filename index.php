@@ -11,11 +11,11 @@
 <body>
 
     <form method="post" action="target.php">
-        <!-- employer la méthode POST pour ne pas avoir les restrictions du GET (données à envoyer au serveur sont écrites directement dans l'URL) ainsi que d'assurer la confidentialité nécessaire et davantage de flexibilité -->
+        <!-- use the POST method to not have the restrictions of the GET (data to be sent to the server is written directly in the URL) as well as to ensure the necessary confidentiality and more flexibility -->
 
         <p>
             <label for="prenom"> Enter your first name: </label>
-            <input type="text" name="prenom" id="prenom" /> <!-- le name prénom sera la clé, et la valeur associée à cette clé sera la valeur envoyée par l'utilisateur --> 
+            <input type="text" name="prenom" id="prenom" /> <!-- the name prenom will be the key, and the value associated with this key will be the value sent by the user --> 
         </p>
 
         <p>
